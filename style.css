@@ -1,0 +1,2928 @@
+body{
+  background: #0b323f !important; 
+}
+.frame-2,
+.frame-2 * {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.frame-2 {
+  background: #0b323f;
+  
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+
+  position: relative;
+
+
+}
+.cor{
+  background: #1180a5;
+  border-radius: 40px 40px 40px 40px;
+  transition: 0.3s all;
+  color:white !important;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.frame-1 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  background: linear-gradient(to left, #b9f2f2, #b9f2f2);
+
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: url('./assets/SLIDER 1 SIN IMAGENES.png') center;
+  
+}
+.frame-20 {
+  padding: 0px 0px 0px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+
+}
+.group-21 {
+  flex-shrink: 0;
+  width: 570.09px;
+  height: 461px;
+
+}
+.hola-mi-nombre-es {
+  color: #000000;
+  text-align: left;
+  width: 478.56px;
+  height: 56px;
+}
+.hola-mi-nombre-es-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+.hola-mi-nombre-es-span2 {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+}
+.coral-calder-n {
+  color: #0099bb;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+
+  width: 570px;
+  height: 90px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px 0 0 0;
+
+
+
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.dise-adora-gr-fica-abordaje-de-ui-ux {
+  color: #0f0e0e;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+
+  width: 543.46px;
+}
+.rectangle-6 {
+  background: #0099bb;
+  border-radius: 150px;
+  text-align: center;
+  width: 100%;
+  object-fit: cover;
+
+}
+.habilidades {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Aileron-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+
+  width: 215px;
+}
+.adobe-xd-logo-png-transparent-1-1 {
+  
+  width: 100%;
+  object-fit: cover;
+
+}
+.photoshop-cc-icon-1 {
+  width: 70.01px;
+  height: 71px;
+
+  object-fit: cover;
+}
+.adobe-illustrator-logo-1 {
+  width: 70.01px;
+  height: 71px;
+
+  object-fit: cover;
+}
+.png-transparent-adobe-indesign-logo-logos-logos-and-brands-icon-1 {
+  width: 70.01px;
+  height: 71px;
+
+  object-fit: cover;
+}
+.adobe-after-effects-logo-1 {
+  width: 70.01px;
+  height: 71px;
+
+  object-fit: cover;
+}
+.group-5 {
+  width: 67.13px;
+  height: 70px;
+
+}
+.rectangle-10 {
+  background: #1e1e1e;
+  border-style: solid;
+  border-color: #27c7d1;
+  border-width: 3px;
+  width: 67.13px;
+  height: 70px;
+
+}
+.figma-1-logo-1 {
+  width: 42.2px;
+  height: 44px;
+
+  object-fit: cover;
+}
+.frame-22 {
+  padding: 77px 0px 77px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  height: 795px;
+
+}
+.group-23 {
+  height: 650px;
+  background: #f8fafb;
+  border-radius: 150px 0 0 150px ;
+
+}
+.rectangulo{
+  background: white;
+  border-radius: 20% 20% 0 0;
+}
+.rectangle-34 {
+  border-radius: 0px;
+  width: 875px;
+  height: 635px;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  overflow: visible;
+}
+.https-lottiefiles-com-animations-web-dev-design-l-mja-4-f-nl-mr {
+  width: 780px;
+  height: 409px;
+  position: absolute;
+  left: calc(50% - 388px);
+  top: calc(50% - 214px);
+  overflow: hidden;
+}
+.seccion-sobre-mi {
+  background: #ffffff;
+  align-self: stretch;
+  flex-shrink: 0;
+
+  position: relative;
+  overflow: hidden;
+}
+.group-27 {
+
+}
+.sobre-m {
+  color: #0099bb;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.dise-adora-gr-fica {
+  color: #ff1371;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+
+}
+.dise-adora-gr-fica-activa-desde-el-2017-particip-en-diferentes {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: normal;
+
+}
+
+.rectangle-7 {
+  background: rgba(255, 19, 113, 0.18);
+  border-radius: 0px 40px 40px 0px;
+}
+._300 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.a-os-de-experiencia {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+}
+.clientes-de-toda-latinoamerica {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+ 
+}
+._6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.foto-coral-copia-2 {
+  width: 100%;
+  height: 100%;
+  max-width: 373px;
+  
+
+  object-fit: cover;
+}
+.seccion-cintillo-promocional {
+  background: linear-gradient(to left, #0099bb, #0099bb);
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.fa-6-solid-suitcase {
+  flex-shrink: 0;
+  position: relative;
+}
+.amplia-experiencia-dise-ando-para-clientes-de-toda-latinoam-rica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+
+
+}
+.seccion-titulo-logofolio {
+  background: #ffffff;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-28 {
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.frame-7 {
+  padding: 7px 0px 7px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  position: relative;
+  overflow: hidden;
+}
+.frame-31 {
+  flex-shrink: 0;
+
+  position: relative;
+}
+.logo {
+  color: #ff1371;
+  text-align: left;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 140px;
+  line-height: 140px;
+  font-weight: 300;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-30 {
+  flex-shrink: 0;
+
+}
+.folio {
+  color: #ff1371;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 140px;
+  line-height: 110px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-2 {
+  border-left: 1px solid black;
+}
+.este-logofolio-es-una-muestra {
+  color: #000000;
+  text-align: justify;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 400;
+  position: relative;
+
+}
+.logofolio-seccion-15-logos {
+  background: #ffffff;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-202 {
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+}
+.frame-203 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mintaka-logo {
+  height: 100%;
+}
+.rectangle-11 {
+  background: #0a0a30;
+  width: 100%;
+
+}
+.mintaka-logo-elegido-blanco-1 {
+  width: 100%;
+  object-fit: cover;
+  vertical-align: baseline;
+}
+._5-digital-logo {
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: cover;
+
+}
+.group-11 {
+
+}
+.rectangle-12 {
+  background: #1e1e1e;
+  width: 100%;
+
+}
+._5-digital-letras-blancas-1 {
+  width: 100%;
+
+  object-fit: cover;
+}
+.toldos-segovia-logo {
+  flex-shrink: 0;
+  width: 551px;
+  height: 424px;
+  position: static;
+}
+.group-12:focus {
+
+}
+.rectangle-13 {
+  background: #faf4f4;
+  width: 100%;
+}
+.segovia-3-propuestas-12-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.frame-204 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-yazilimyol {
+  flex-shrink: 0;
+  width: 100%;
+
+}
+.rectangle-23 {
+  background: #e73d08;
+  width: 100%;
+
+}
+.logo-blanco-y-negro-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-jarana-party {
+
+}
+.rectangle-15 {
+  background: #2b2c48;
+  width: 100%;
+  height: 100%;
+
+}
+.jarana-party-para-fondos-oscuros-150-x-8-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-admk {
+
+}
+.rectangle-19 {
+  background: #0a3572;
+  width: 100%;
+}
+._3-1-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-acinsumos {
+  flex-shrink: 0;
+  width: 551px;
+  height: 424px;
+  position: static;
+}
+.rectangle-17 {
+  background: #ffffff;
+  width: 100%;
+}
+.a-color-para-fondos-claros-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-um-pasto-sintetico {
+  flex-shrink: 0;
+  width: 551px;
+  height: 424px;
+  position: static;
+}
+.rectangle-18 {
+  background: #706f6f;
+  width: 100%;
+}
+.um-logo-horizontal-letras-blancas-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-activaya {
+  flex-shrink: 0;
+  width: 550px;
+  height: 424px;
+  position: static;
+}
+.group-13 {
+  width: 550px;
+  height: 424px;
+  position: static;
+}
+.rectangle-60 {
+  background: #f6f3f3;
+  width: 100%;
+  height: 100%;
+}
+.logo-elegido-activa-ya-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-novenin {
+  flex-shrink: 0;
+  width: 551px;
+  height: 424px;
+  position: static;
+}
+.rectangle-20 {
+  background: #b81250;
+  width: 100%;
+}
+.novenin-p-2-blanco-y-negro-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-vendomaq {
+  flex-shrink: 0;
+  width: 551px;
+  height: 424px;
+  position: static;
+}
+.rectangle-61 {
+
+  width: 100%;
+
+}
+.vendomaq-con-mascota-y-linea-copia-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-3-clics {
+  flex-shrink: 0;
+  width: 550px;
+  height: 424px;
+  position: static;
+}
+.rectangle-22 {
+  background: #ec1c24;
+  width: 100%;
+}
+._3-clics-1 {
+  width: 100%;
+
+}
+.frame-205 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-kristalina {
+  flex-shrink: 0;
+  width: 551px;
+  height: 424px;
+  position: static;
+}
+.rectangle-26 {
+  background: #c1edff;
+  width: 100%;
+}
+.logo-colores-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-unifila {
+  flex-shrink: 0;
+  width: 551px;
+  height: 424px;
+  position: static;
+}
+.rectangle-25 {
+  background: #161737;
+  width: 100%;
+}
+.logo-unifila-blanco-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-xhunca {
+  flex-shrink: 0;
+  width: 550px;
+  height: 424px;
+  position: static;
+}
+.rectangle-14 {
+  background: #f1f1f1;
+  width: 100%;
+}
+.logo-inversiones-xhunca-8-1 {
+  width: 100%;
+  object-fit: cover;
+}
+.seccion-dise-o-web {
+  
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-14 {
+
+
+  position: relative;
+
+}
+.rectangle-46 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-shrink: 0;
+
+}
+.frame-206 {
+  flex-shrink: 0;
+
+  position: relative;
+  overflow: hidden;
+}
+.web {
+  color: #ffffff;
+
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+
+}
+.dise-o {
+  color: #ffffff;
+
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 128px;
+
+  font-weight: 400;
+
+
+}
+.group-19 {
+  flex-shrink: 0;
+
+}
+.los-sitios-m-s-destacados {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector-1 {
+
+  overflow: visible;
+}
+.vector-2 {
+
+  overflow: visible;
+}
+.group-26 {
+  flex-shrink: 0;
+  justify-content: center;
+
+}
+.seccion-refrielectrica-1 {
+
+}
+.rectangle-28 {
+  width: 100%;
+
+  object-fit: cover;
+}
+.refrielectrica-texto-1 {
+
+}
+.redise-o-de-sitio-web {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-32 {
+  width: 696px;
+  height: 64px;
+  position: static;
+}
+.refriel-ctrica-sp-a {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+
+}
+.ellipse-6 {
+  background: #ff1371;
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios{
+  color: #ffffff;
+  text-align: justify;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.botones-refrielectrica {
+
+}
+.ver-caso-de-estudio-boton-1 {
+
+}
+.frame-4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 316px;
+  height: 63px;
+  position: absolute;
+  left: 801px;
+  top: 972px;
+}
+.group-28 {
+
+}
+.rectangle-31 {
+  border-radius: 0px;
+
+}
+.frame-282 {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #FF1371;
+  border-radius: 12px;
+
+}
+.frame-282:hover {
+
+  background-color: #fc428e;
+
+
+}
+.frame-282:active {
+
+  background-color: #f76baa;
+
+
+}
+.icono-lupa-1 {
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: contain;
+}
+.ver-caso-de-estudio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ir-a-web-boton-1 {
+  background: #0a3572;
+  border-radius: 12px;
+  padding: 0px 11px 0px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+.mdi-web {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.ir-a-web {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+
+}
+.ir-a-web-boton-1:hover {
+  background: #2260aa;
+}
+.ir-a-web-boton-1:active {
+  background: #6ba9dd;
+}
+.grande-lash-seccion-2 {
+
+}
+.mockup-2-1 {
+  width: 100%;
+
+  object-fit: cover;
+}
+.botones-grandelash {
+  width: 595.06px;
+  height: 66px;
+  position: static;
+}
+.ver-caso-de-estudio-boton-12 {
+
+}
+.rectangle-312 {
+  border-radius: 0px;
+  width: 348.06px;
+  height: 66px;
+  position: absolute;
+  left: 774px;
+  top: 2146px;
+  overflow: visible;
+}
+.frame-42 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 63px;
+  position: absolute;
+  left: 790px;
+  top: 2148px;
+}
+.frame-283 {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.mdi-web2 {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.frame-24 {
+  width: 684px;
+  height: 399px;
+  position: absolute;
+  left: 454px;
+  top: 1710px;
+  overflow: hidden;
+}
+.grande-lash-texto-2 {
+  width: 684px;
+  height: 196px;
+  position: absolute;
+  left: 0px;
+  top: -20px;
+}
+.redise-o-de-sitio-web2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 255px);
+  top: 144px;
+  width: 397px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-29 {
+  position: absolute;
+  inset: 0;
+}
+.grande-lash-chile {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 84px;
+  top: 73px;
+  width: 600px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-62 {
+  background: #ff1371;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+
+}
+.frame-29 {
+  padding: 0px 0px 0px 47px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 682px;
+  height: 203px;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+}
+.esta-marca-requer-a-optimizar-su-web-en-chile-y-resaltar-sus-productos-inicialmente-buscando-diferenciarse-de-su-competencia-y-resaltando-sus-fortalezas-por-consiguiente-se-elaboraron-hip-tesis-que-fueron-apoyadas-con-el-dise-o-de-3-prototipos-de-los-cuales-se-eligi-uno-como-redise-o-final-de-la-web {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 555px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-25 {
+  width: 880px;
+  height: 1157px;
+  position: static;
+}
+.mockup-2-2 {
+  width: 880px;
+  height: 668px;
+  position: absolute;
+  left: calc(50% - 440px);
+  top: 3400px;
+  object-fit: cover;
+}
+.botones-vendomaq {
+  width: 595.06px;
+  height: 66px;
+  position: static;
+}
+.rectangle-313 {
+  border-radius: 0px;
+  width: 348.06px;
+  height: 66px;
+  position: absolute;
+  left: 774px;
+  top: 3333px;
+  overflow: visible;
+}
+.frame-43 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 63px;
+  position: absolute;
+  left: 790px;
+  top: 3335px;
+}
+
+.mdi-web3 {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.frame-242 {
+  width: 684px;
+  height: 424px;
+  position: absolute;
+  left: 454px;
+  top: 2911px;
+  overflow: hidden;
+}
+.grande-lash-texto-22 {
+  width: 684px;
+  height: 196px;
+  position: absolute;
+  left: 0px;
+  top: -25px;
+}
+.redise-o-de-marca {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 255px);
+  top: 149px;
+  width: 397px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vendomaq {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 84px;
+  top: 68px;
+  width: 370px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-63 {
+  background: #ff1371;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+
+}
+.frame-292 {
+  padding: 0px 0px 0px 47px;
+  width: 682px;
+  height: 203px;
+  position: absolute;
+  left: 0px;
+  top: 186px;
+}
+.para-el-re-branding-de-esta-marca-no-solo-se-buscaba-redise-ar-y-simplificar-su-web-tambi-n-evolucion-todo-el-mensaje-desde-la-imagen-anterior-de-coffeemaq-a-vendomaq-para-abarcar-el-arriendo-de-m-quinas-expendedoras-de-snack-con-una-nueva-imagen-simp-tica-y-una-mascota-ic-nica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 0px;
+  width: 555px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.seccion-hrd-chile-4 {
+  width: 880px;
+  height: 1104px;
+  position: static;
+}
+.hrd-texto-4 {
+  width: 668px;
+  height: 330px;
+  position: static;
+}
+.redise-o-de-web {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 534px;
+  top: 4205px;
+  width: 422px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-31 {
+  width: 555px;
+  height: 68px;
+  position: static;
+}
+.hrd-chile {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 532px;
+  top: 4124px;
+  width: 477px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-9 {
+  background: #ff1371;
+  border-radius: 50%;
+  width: 63.82px;
+  height: 59px;
+  position: absolute;
+  left: calc(50% - 372px);
+  top: calc(50% - -845px);
+}
+.la-empresa-requer-a-que-su-web-reflejara-mejor-sus-servicios-como-es-el-predrilling-perforaciones-de-pozos-tanto-para-parques-solares-fotovoltaicos-como-para-otro-tipo-de-uso-luego-del-trabajo-de-investigaci-n-se-implement-el-prototipo-aprobado-en-su-redise-o-web {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 531.65px;
+  top: 4271px;
+  width: 590.35px;
+  height: 183px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.botones-hrd-chile {
+  width: 595.06px;
+  height: 66px;
+  position: static;
+}
+.rectangle-314 {
+  border-radius: 0px;
+  width: 348.06px;
+  height: 66px;
+  position: absolute;
+  left: 774px;
+  top: 4494px;
+  overflow: visible;
+}
+.frame-44 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 63px;
+  position: absolute;
+  left: 790px;
+  top: 4496px;
+}
+
+.mdi-web4 {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.mockup-2-3 {
+  width: 880px;
+  height: 668px;
+  position: absolute;
+  left: 386px;
+  top: 4560px;
+  object-fit: cover;
+}
+.bodyface-seccion-5 {
+  width: 880px;
+  height: 1108px;
+  position: static;
+}
+.bodyface-texto-5 {
+  width: 681px;
+  height: 326px;
+  position: static;
+}
+.dise-o-de-p-gina-web {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 529px;
+  top: 5391px;
+  width: 396.55px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-30 {
+  width: 681px;
+  height: 69px;
+  position: static;
+}
+.body-face-est-tica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 527px;
+  top: 5313px;
+  width: 608px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-10 {
+  background: #ff1371;
+  border-radius: 50%;
+  width: 60px;
+  height: 59px;
+  position: absolute;
+  left: calc(50% - 372px);
+  top: calc(50% - -2034px);
+}
+.la-empresa-contaba-con-redes-sociales-pero-no-contaba-con-una-p-gina-web-por-lo-que-se-inici-la-investigaci-n-correspondiente-que-llev-al-prototipo-final-que-esta-en-uso-en-la-actualidad-como-p-gina-central-donde-ofrecen-todos-sus-servicios {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 527px;
+  top: 5456px;
+  width: 555px;
+  height: 183px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.botones-bodyface {
+  width: 595.06px;
+  height: 66px;
+  position: static;
+}
+.rectangle-315 {
+  border-radius: 0px;
+  width: 348.06px;
+  height: 66px;
+  position: absolute;
+  left: 772px;
+  top: 5687px;
+  overflow: visible;
+}
+.frame-45 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 63px;
+  position: absolute;
+  left: 788px;
+  top: 5689px;
+}
+
+.mdi-web5 {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.mockup-2-4 {
+  width: 880px;
+  height: 668px;
+  position: absolute;
+  left: 386px;
+  top: 5753px;
+  object-fit: cover;
+}
+.seccion-contactame {
+  flex-shrink: 0;
+  width: 100%;
+  background-image: url("./assets/FONDO COMPLETO CONTACTO.png");
+
+  overflow: hidden;
+}
+.rectangle-42 {
+  background: linear-gradient(to left, #0099bb, #0099bb);
+  width: 1275px;
+  height: 965px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  object-fit: cover;
+}
+.rectangle-45 {
+  background: #0099bb;
+  width: 376px;
+  height: 963px;
+  position: absolute;
+  left: 1275px;
+  top: 0px;
+}
+.frame-10 {
+  background: #ffffff;
+  border-radius: 33px;
+  box-shadow: 7px 10px 22.2px 0px rgba(0, 0, 0, 0.25);
+
+}
+.frame-25 {
+  padding: 11px 0px 31px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 473px;
+  position: relative;
+}
+.rellene-el-formulario {
+  color: #246173;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con-sus-datos-para-ponernos-en-contacto {
+  color: #246173;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-243 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nombre-y-apellido {
+  color: #7a7a7a;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 400;
+  position: relative;
+  width: 473px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-48 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #8a8383;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 473px;
+  height: 48px;
+  position: relative;
+}
+.frame-23 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.correo-electr-nico {
+  color: #7a7a7a;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 400;
+  position: relative;
+  width: 473px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-49 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #8a8383;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 473px;
+  height: 49px;
+  position: relative;
+}
+.frame-222 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.tel-fono {
+  color: #7a7a7a;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 400;
+  position: relative;
+  width: 473px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-50 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #8a8383;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 473px;
+  height: 48px;
+  position: relative;
+}
+.frame-207 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.asunto {
+  color: #7a7a7a;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 400;
+  position: relative;
+  width: 473px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-53 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #8a8383;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 473px;
+  height: 48px;
+  position: relative;
+}
+.frame-21 {
+
+}
+.mensaje {
+  color: #7a7a7a;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-52 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #8a8383;
+  border-width: 1px;
+  align-self: start;
+}
+.las-casillas-marcadas-con-son-obligatorias {
+  color: #7a7a7a;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-18 {
+  background: #246173;
+  border-radius: 11px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-18:hover {
+  background: #2c7384;
+}
+.frame-18:active {
+  background: #378d9b;
+}
+
+.enviar-formulario {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-244 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.frame-252 {
+  padding: 11px 0px 7px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.contacto {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 96px;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.escriba-sus-datos-en-el-formulario-para-contactarle{
+  color: #ffffff;
+  text-align: justify;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: undefined;
+}
+.frame-26 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-16 {
+  flex-shrink: 0;
+}
+.rectangle-55 {
+  background: #46e14d;
+  border-radius: 20px;
+  box-shadow: 6px 9px 19.8px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-55:hover {
+  background: #64f464;
+}
+.rectangle-55:active {
+  background: #80f980;
+}
+.frame-262 {
+  border-radius: 13px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 4px;
+
+  overflow: hidden;
+}
+.frame-284 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 559px;
+  height: 85px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo-whattsapp-1 {
+  flex-shrink: 0;
+  position: relative;
+  object-fit: cover;
+}
+.ir-al-chat-de-whatsapp {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-27 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 663px;
+  position: relative;
+}
+.group-17 {
+  flex-shrink: 0;
+  width: 583px;
+  height: 104px;
+  position: static;
+}
+.rectangle-57 {
+  background: #00bbaf;
+  border-radius: 20px;
+  box-shadow: 6px 9px 19.8px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-57 {
+  background: #00bbaf;
+}
+.rectangle-57:hover {
+  background: #05ccb9;
+}
+.rectangle-57:active {
+  background: #0edbc7;
+}
+.frame-263 {
+  border-radius: 13px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 4px;
+  overflow: hidden;
+}
+.frame-264 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 26.54px;
+  top: 14px;
+}
+.icono-correo-1 {
+  object-fit: cover;
+}
+input[pattern]:focus:invalid,  textarea[pattern]:focus:invalid{
+  background-color: rgba(202, 29, 29, 0.24) !important;
+}
+
+input[pattern]:focus:valid, textarea[pattern]:focus:valid  {
+  background-color: rgba(68, 226, 129, 0.562) !important;
+}
+.enviar-correo-electr-nico {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background: #0b171b;
+  width: 100%;
+}
+.frame-208 {
+  padding: 0px 712px 0px 712px;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1651px;
+  position: relative;
+  overflow: hidden;
+}
+.logo-behance {
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.logo-whattsapp {
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.linkedin-logo-png-2048 {
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: cover;
+}
+._2024-coral-calder-n-todos-los-derechos-reservados {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1651px;
+  height: 151px;
+  position: absolute;
+  left: 135px;
+  top: 0px;
+}
+.header2 {
+  background: #ffffff;
+
+}
+.logo-circular-fondo-blanco-1 {
+  flex-shrink: 0;
+  width: 100%;
+  
+  position: relative;
+  object-fit: contain;
+}
+.group-4 {
+  flex-shrink: 0;
+  width: 724.27px;
+  height: 29.15px;
+  position: static;
+}
+
+.inicio2 {
+  color: #0f0e0e;
+
+  font-family: "Aileron-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.sobre-m2 {
+  width: 96.06px;
+  height: 29px;
+  position: absolute;
+  left: 520px;
+  top: 60.93px;
+}
+.sobre-m3 {
+  color: #0f0e0e;
+
+  font-family: "Aileron-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.logofolio {
+  color: #0f0e0e;
+
+  font-family: "Aileron-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.dise-o-web {
+  color: #0f0e0e;
+  text-align: left;
+  font-family: "Aileron-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.cont-ctame {
+  color: #0f0e0e;
+  text-align: left;
+  font-family: "Aileron-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.frame-9 {
+
+
+}
+.icono-whatsapp {
+  flex-shrink: 0;
+  width: 66.04px;
+  height: 67px;
+  position: relative;
+}
+.ellipse-5 {
+
+  border-radius: 50%;
+  width: 100%;
+  object-fit: contain;
+}
+.ellipse-5:hover {
+  filter:  brightness(105%);
+
+}
+.ellipse-5:active {
+  filter:  brightness(115%);
+
+}
+.ellipse-7 {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: contain;
+}
+.ellipse-7:hover {
+  filter:  brightness(108%);
+
+}
+.ellipse-7:active {
+  filter:  brightness(115%);
+
+}
+.ellipse-8 {
+  background-image: url("./assets/ellipse-30.png");
+  border-radius: 50%;
+  width: 100%;
+  object-fit: contain;
+
+}
+.ellipse-8:hover {
+  filter:  brightness(108%);
+
+}
+.ellipse-8:active {
+  filter:  brightness(115%);
+
+}
+.icono-behance {
+  flex-shrink: 0;
+  width: 66.04px;
+  height: 67px;
+  position: relative;
+  overflow: visible;
+}
+.ellipse-4 {
+  flex-shrink: 0;
+  width: 66.04px;
+  height: 67px;
+  position: relative;
+  overflow: visible;
+}
+.dis{}
+.alg{}
+.centro{}
+.mas{}
+.hr{
+  border: none; border-left: 3px solid #79839D; height: 350px;width: 2px;
+}
+@media (max-width: 1651px) {
+
+  .ir-a-web {
+
+    font-size: 20px;
+
+  }
+  .ver-caso-de-estudio {
+
+    font-size: 20px;
+
+  }
+
+  .web {
+    color: #ffffff;
+  
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 100px;
+  
+    font-weight: 700;
+  
+  }
+  .dise-o {
+    color: #ffffff;
+  
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 100px;
+  
+    font-weight: 400;
+  
+  
+  }
+
+  .los-sitios-m-s-destacados {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rectangle-7 {
+    background: rgba(255, 19, 113, 0.18);
+    border-radius: 40px 40px 40px 40px;
+  }
+  .logo {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 120px;
+    line-height: 130px;
+    font-weight: 300;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .folio {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 120px;
+    line-height: 100px;
+    font-weight: 700;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .inicio2{
+    font-size: 20px;
+  }
+  .logofolio{
+    font-size: 20px;
+  }
+  .dise-o-web{
+    font-size: 20px;
+  }
+  .cont-ctame{
+    font-size: 20px;
+  }
+  .sobre-m3{
+    font-size: 20px;
+  }
+  .group-23{
+    height: 550px;
+      border-radius: 0 0 0 0 ;
+  }
+  .frame-20{
+    margin: auto;
+  }
+  .alg{
+    margin: 0em 0 0 auto;
+  }
+  .group-23{
+    height: 750px;
+    border-radius: 0 0 0 0 ;
+  }
+  .clientes-de-toda-latinoamerica {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .a-os-de-experiencia {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  ._6 {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  ._300 {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .dise-adora-gr-fica-activa-desde-el-2017-particip-en-diferentes {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 22.5px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: normal;
+  
+  }
+  .redise-o-de-sitio-web {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .refriel-ctrica-sp-a {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+
+  }
+  .luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios{
+    color: #ffffff;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 1428px) {
+
+  .inicio2{
+    font-size: 18px;
+  }
+  .logofolio{
+    font-size: 18px;
+  }
+  .dise-o-web{
+    font-size: 18px;
+  }
+  .cont-ctame{
+    font-size: 18px;
+  }
+  .sobre-m3{
+    font-size: 18px;
+  }
+  .group-23{
+    height: 650px;
+    border-radius: 0 0 0 0 ;
+  }
+  .web {
+    color: #ffffff;
+  
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 90px;
+  
+    font-weight: 700;
+  
+  }
+  .dise-o {
+    color: #ffffff;
+  
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 90px;
+  
+    font-weight: 400;
+  
+  
+  }
+
+  .los-sitios-m-s-destacados {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios{
+    color: #ffffff;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .contacto {
+
+    font-size: 86px;
+
+  }
+
+}
+@media (max-width: 1200px) {
+
+  .ir-a-web {
+
+    font-size: 18px;
+
+  }
+  .ver-caso-de-estudio {
+
+    font-size: 18px;
+
+  }
+
+
+  .web {
+    color: #ffffff;
+  
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 70px;
+  
+    font-weight: 700;
+  
+  }
+  .dise-o {
+    color: #ffffff;
+  
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 70px;
+  
+    font-weight: 400;
+  
+  
+  }
+
+  .los-sitios-m-s-destacados {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hr{
+    border-style: solid;
+    border-color: #79839D;
+    border-width: 3px 0 0 0;
+  
+    height: 0px;
+  
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+  }
+  .logo {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 100px;
+    line-height: 70px;
+    font-weight: 300;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .folio {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 700;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .coral-calder-n {
+    color: #0099bb;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+  
+
+    height: 65px;
+  }
+  .group-23{
+    height: 600px;
+    border-radius: 0 0 0 0 ;
+  }
+
+  .amplia-experiencia-dise-ando-para-clientes-de-toda-latinoam-rica {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+
+  }
+  .hola-mi-nombre-es-span {
+    color: #000000;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .hola-mi-nombre-es {
+    color: #000000;
+    text-align: left;
+    width: 478.56px;
+    height: 54px;
+  }
+  .habilidades {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Aileron-Bold", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+  
+    width: 215px;
+  }
+  .dise-adora-gr-fica-abordaje-de-ui-ux {
+    color: #0f0e0e;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+  
+    width: 543.46px;
+  }
+  .foto-coral-copia-2 {
+    width: 100%;
+    height: 90%;
+    max-width: 373px;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+    
+  }
+  .mas{
+    height: 400px;
+    width: 400px;
+  }
+  .dise-adora-gr-fica {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+  .sobre-m {
+    color: #0099bb;
+    text-align: center;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .redise-o-de-sitio-web {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .refriel-ctrica-sp-a {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+
+  }
+  .luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios{
+    color: #ffffff;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
+video{
+  border:none !important;
+}
+
+@media (max-width: 992px) {
+
+  .ir-a-web {
+
+    font-size: 14px;
+
+  }
+  .ver-caso-de-estudio {
+
+    font-size: 14px;
+
+  }
+  .este-logofolio-es-una-muestra {
+    color: #000000;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 28px;
+    line-height: 100%;
+    font-weight: 400;
+    position: relative;
+  
+  }
+  .coral-calder-n {
+    color: #0099bb;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 48px;
+
+    font-weight: 800;
+    height: 50px;
+  }
+  .inicio2{
+    font-size: 13px;
+  }
+
+  .logofolio{
+    font-size: 13px;
+  }
+  .dise-o-web{
+    font-size: 13px;
+  }
+  .cont-ctame{
+    font-size: 13px;
+  }
+  .sobre-m3{
+    font-size: 13px;
+  }
+  .luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios{
+    color: #ffffff;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .refriel-ctrica-sp-a {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+  
+
+  }
+}
+@media (max-width: 767px) {
+  .rectangle-7 {
+    background: rgba(255, 19, 113, 0.18);
+    border-radius: 25px 25px 25px 25px;
+  }
+  .amplia-experiencia-dise-ando-para-clientes-de-toda-latinoam-rica {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+
+  }
+
+  ._300 {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .a-os-de-experiencia {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .clientes-de-toda-latinoamerica {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  ._6 {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .dis{
+    display:none !important
+  }
+  .bi-list{
+    display: inline-block;
+  }
+  .inicio2{
+    font-size: 10px;
+  }
+  .logofolio{
+    font-size: 10px;
+  }
+  .dise-o-web{
+    font-size: 10px;
+  }
+  .cont-ctame{
+    font-size: 10px;
+  }
+  .sobre-m3{
+    font-size: 10px;
+  }
+  .group-23{
+    height: 450px;
+    border-radius: 0 0 0 0 ;
+  }
+  .centro{
+    
+  }
+  .coral-calder-n {
+    color: #0099bb;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 45px;
+
+    font-weight: 800;
+    height: 50px;
+  }
+  .hola-mi-nombre-es-span {
+    color: #000000;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 34px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .hola-mi-nombre-es {
+    color: #000000;
+    text-align: left;
+    width: 478.56px;
+
+    height: 42px;
+  }
+  .habilidades {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Aileron-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    
+    width: 215px;
+  }
+  .dise-adora-gr-fica-abordaje-de-ui-ux {
+    color: #0f0e0e;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    width: 543.46px;
+  }
+  .dise-adora-gr-fica {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+  .sobre-m {
+    color: #0099bb;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .foto-coral-copia-2 {
+    width: 100%;
+    height: 90%;
+    
+    
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+    
+  }
+  .mas{
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+  }
+  .sobre-m {
+    color: #0099bb;
+    text-align: center;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .rectangle-6 {
+    background: #0099bb;
+    border-radius: 150px;
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+  
+  }
+  .web {
+    color: #ffffff;
+  
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 50px;
+  
+    font-weight: 700;
+  
+  }
+  .dise-o {
+    color: #ffffff;
+  
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 50px;
+  
+    font-weight: 400;
+  
+  
+  }
+
+  .los-sitios-m-s-destacados {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios{
+    color: #ffffff;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .ir-a-web {
+
+    font-size: 12px;
+
+  }
+  .ver-caso-de-estudio {
+
+    font-size: 12px;
+
+  }
+  .refriel-ctrica-sp-a {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+
+  }
+  .redise-o-de-sitio-web {
+
+    font-size: 19px;
+
+  }
+}
+@media (max-width: 500px) {
+
+  .web {
+    color: #ffffff;
+  
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 40px;
+  
+    font-weight: 700;
+  
+  }
+  .dise-o {
+    color: #ffffff;
+  
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 40px;
+  
+    font-weight: 400;
+  
+  
+  }
+
+  .los-sitios-m-s-destacados {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hola-mi-nombre-es-span {
+    color: #000000;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .coral-calder-n {
+    color: #0099bb;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 38px;
+
+    font-weight: 800;
+    height: 40px;
+  }
+    .dise-adora-gr-fica-abordaje-de-ui-ux {
+    color: #0f0e0e;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+  }
+  ._300 {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .a-os-de-experiencia {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .clientes-de-toda-latinoamerica {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  ._6 {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .dise-adora-gr-fica {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+  .dise-adora-gr-fica-activa-desde-el-2017-particip-en-diferentes {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: normal;
+  
+  }
+  .sobre-m {
+    color: #0099bb;
+    text-align: center;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .foto-coral-copia-2 {
+  
+    height: 100%;
+    
+    
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+ 
+    
+  }
+  .mas{
+    height: 180px;
+    width: 400px;
+    overflow: hidden;
+  }
+  .este-logofolio-es-una-muestra {
+    color: #000000;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400;
+    position: relative;
+  
+  }
+  .logo {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 80px;
+    line-height: 60px;
+    font-weight: 300;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .folio {
+    color: #ff1371;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .redise-o-de-sitio-web {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .refriel-ctrica-sp-a {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+  
+
+  }
+
+  .luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios{
+    color: #ffffff;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
+
+
+

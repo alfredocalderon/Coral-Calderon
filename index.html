@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+  <link rel="stylesheet" href="./vars.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./dist/css//bootstrap/bootstrap.css" />
+  <link rel="stylesheet" href="./dist/css//bootstrap/bootstrap-grid.css" />
+  <link rel="stylesheet" href="./dist/css/package/font/bootstrap-icons.css" />
+  <title>Portafolio Coral Calderón</title>
+  <link rel="shortcut icon" href="./assets/LOGO CC PNG para fondos oscuros.png" />
+
+  <style>
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      appearance: none;
+      background: none;
+
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+  <title>Document</title>
+  <script src="./js/jquery/jquery.min.js"></script>
+</head>
+
+<body background="background: #0b323f !important;">
+  <div class="header2  sticky-top container-fluid col-12"
+    style="max-width: 1651px;margin:auto; position: sticky !important;z-index: 99; top:0px;">
+    <div class="w-100 col-12  ">
+      <div class=" row  align-items-center py-2 py-sm-2  py-md-2 py-lg-2 px-4 px-md-4">
+        <div class="d-flex col-md-1 col-lg-1 col-sm-2 col-2 justify-content-start px-0 px-sm-2 justify-content-end">
+          <img class="col-xxl-8 col-xl-7 col-sm-6 col-11 logo-circular-fondo-blanco-1 " src="./assets/LOGO 2.png" />
+        </div>
+
+        <button class="col-2 col-sm-1 d-block d-md-none  px-0 text-center navbar-toggler" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i
+            class="bi bi-list " style="font-size: 42px;"></i></button>
+
+        <div class="col-3 col-sm-6 col-md-1 d-block d-sm-block col-lg-1 col-xl-2 d-xxl-none"></div>
+
+        <div class="col-md-8 col-lg-8 col-xl-7 col-xxl-9 dis ">
+          <div class="col-md-12">
+            <div class="row justify-content-end align-items-center pe-2 ">
+              <a href="#slider" id="pr1" class="l inicio2 col-md-2 col-xl-1 text-center"
+                style="text-align: end;">Inicio</a>
+              <a href="#seccion-sobre-mi" id="pr2" class="l sobre-m3 col-md-2 text-center"
+                style="text-align: end;">Sobre mí</a>
+              <a href="#seccion-titulo-logofolio" id="pr3" class="l logofolio col-md-2 text-center"
+                style="text-align: end;">Logofolio</a>
+              <a href="#seccion-dise-o-web" id="pr4"
+                class="l dise-o-web col-sm-3 col-md-2 col-lg-2 px-lg-0 px-xl-2 px-md-2 text-center"
+                style="text-align: end;">Diseño Web</a>
+              <a href="#seccion-contactame" id="pr5" class="l cont-ctame col-sm-3 col-md-2 col-lg-2 text-center"
+                style="text-align: end;">Contáctame</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="frame-9 col-md-2 col-lg-2 col-sm-3 col-5 col-xl-2 col-xxl-2 ">
+          <div class="row column-gap xxl-3 column-gap-0 justify-content-end py-0  ">
+
+            <div class="col-4 col-xl-3 col-xxl-3 px-1 px-sm-2">
+              <a href="http://wa.link/dgq56g"><img class="ellipse-5 " src="./assets/ellipse-50.png" /></a>
+            </div>
+
+
+            <div class="col-4 col-xl-3 col-xxl-3 px-1 px-sm-2">
+              <a
+                href="https://www.linkedin.com/in/coralcalderondg?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img
+                  class="ellipse-7 " src="./assets/ellipse-41.png" /></a>
+            </div>
+
+            <div class="col-4 col-xl-3 col-xxl-3 px-1 px-sm-2">
+              <a href="https://www.behance.net/azure14azud66b"><img class="ellipse-8"
+                  src="./assets/ellipse-30.png" /></a>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel"> <!--menu lateral-->
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Indice</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row row-gap-3">
+        <a href="#slider" id="pl1" class="l inicio2 col-12 fs-2">Inicio</a>
+        <a href="#seccion-sobre-mi" id="pl2" class="l sobre-m3 col-12 fs-2">Sobre mí</a>
+        <a href="#seccion-titulo-logofolio" id="pl3" class="l logofolio fs-2 col-12">Logofolio</a>
+        <a href="#seccion-dise-o-web" id="pl4" class="l dise-o-web col-12 fs-2 px-lg-0 px-xl-2 px-md-2">Diseño Web</a>
+        <a href="#seccion-contactame" id="pl5" class="l cont-ctame col-12 fs-2 ">Contáctame</a>
+      </div>
+    </div>
+  </div>
+  <div class="frame-2 col-12" style="scroll-behavior: smooth;">
+
+    <div class="frame-1 row w-100 col-12" style="max-width:1651px;margin:auto;">
+
+      <div id="slider" class="slider d-flex justify-content-center col-12 p-0"
+        style="background-size: cover;background-repeat: no-repea;">
+        <div class="row container-fluid m-auto align-items-center col-12 p-0 ps-xxl-4">
+          <div class="col-xxl-6 col-12 justify-content-center p-0">
+            <div class="frame-20  col-9 col-sm-8 col-lg-5 col-xl-6 col-xxl-12 ps-0 py-5 ">
+              <div class=" row ps-0 ps-xxl-5  centro">
+                <div class="hola-mi-nombre-es text-md-center text-lg-start col-12">
+                  <span>
+                    <span class="hola-mi-nombre-es-span">
+                      ¡Hola! Mi nombre es
+                      <br>
+                    </span>
+                    <span class="hola-mi-nombre-es-span2"></span>
+                  </span>
+                </div>
+
+                <div class="coral-calder-n col-12 text-md-center text-lg-start">Coral Calderón</div>
+                <div class="col-12" style="height: 20px;"></div>
+                <div class="col-12 " style="height: 20px;">
+                  <div class="line-1 col-12 col-sm-12 col-md-8 col-xl-9 col-lg-12 mx-0 mx-md-auto mx-lg-0"></div>
+                </div>
+
+
+                <div class="dise-adora-gr-fica-abordaje-de-ui-ux col-12 text-md-center text-lg-start">
+                  Diseñadora Gráfica &amp; Abordaje de UI/UX
+                </div>
+                <div class="col-12" style="height: 20px;"></div>
+                <div class="col-12 d-none d-sm-block" style="height: 20px;"></div>
+                <div
+                  class="col-12 text-md-start m-0 ps-3 ps-xl-2 text-md-center text-lg-start ps-sm-0 ps-0 ps-md-5 ps-lg-0">
+                  <div class="col-12 ps-lg-0 ps-md-4 ps-0">
+                    <div class="ps-md-4 ps-0 ps-lg-0">
+                      <div class=" col-7 col-md-4 col-lg-5 col-xl-4 habilidades rectangle-6">Habilidades</div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-12" style="height: 20px;"></div>
+
+                <div class="col-12 col-xl-9 col-lg-12 col-md-9 ps-0 mx-0 mx-md-auto mx-lg-0">
+                  <img class="adobe-xd-logo-png-transparent-1-1" src="./assets/LOGOS PROGRAMAS PNG.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-6 col-12 text-center p-0">
+            <div class="alg col-12 col-xxl-12 p-0 py-5 pb-0 pb-xxl-5 py-xxl-5">
+              <div class="group-23 col-12 justify-content-center p-0 pe-2">
+                <video class="my-0 my-sm-3 ms-2 mb-5" src="./assets/VIDEO SLIDER PESADO.mp4" width="90%" height="95%"
+                  autoplay muted loop>
+                </video>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="seccion-sobre-mi" class="seccion-sobre-mi d-flex align-items-center  p-0">
+        <div class="group-27  column-gap-2 px-5 py-5 h-100">
+          <div class="row p-0 py-4 py-xl-5 px-0 px-xl-5 column-gap-5 justify-content-center">
+            <div class="col-7 col-xl-3 col-xxl-3 text-center text-xl-start mas ">
+              <img class="foto-coral-copia-2 vertical-baseline vertical-xl-auto align-middle"
+                src="foto-coral-copia-20.png" />
+            </div>
+            <div class="col-xxl-0 col-xl-0 col-0" hidden></div>
+            <div class="col-12 col-xl-8 col-xxl-8 p-0 column-gap-3 pt-4 pt-sm-0">
+              <div class="row row-gap-3 row-gap-xl-4">
+                <div class="sobre-m col-10 mx-auto col-md-11">SOBRE MÍ</div>
+                <div class="col-10 mx-auto col-md-11  dise-adora-gr-fica">Diseñadora Gráfica</div>
+
+                <div
+                  class="col-10 mx-auto col-md-11 pt-xl-3 pt-0 dise-adora-gr-fica-activa-desde-el-2017-particip-en-diferentes">
+                  Diseñadora gráfica activa desde el 2017. Participé en diferentes
+                  proyectos de toda Latinoamérica, relacionados con el diseño de
+                  marcas, diseño de páginas web, animaciones y abordaje en los
+                  procesos de diseño de interfaces con éxito.
+                </div>
+                <div class="col-0"></div>
+                <div class="group-6 rectangle-7 col-10 mx-auto col-md-11 px-4 px-md-5 pt align-middle">
+
+                  <div class="row align-items-center py-3 h-100">
+                    <div class="_6 col-2">6+</div>
+                    <div class="a-os-de-experiencia col-3 px-0">Años de experiencia</div>
+                    <div class="_300 col-3">300+</div>
+                    <div class="clientes-de-toda-latinoamerica col-4 px-0">Diseños en toda Latinoamerica</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="seccion-cintillo-promocional" class="seccion-cintillo-promocional d-flex p-0" style="
+            background: url(assets/SECCION\ CINTILLO\ PROMOCIONAL.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+          ">
+        <div class="h-100 py-3 py-lg-5 px-5">
+          <div
+            class="row py-2 py-sm-5 align-items-center row-gap-sm-3 row-gap-md-3 row-gap-3 column-gap-5 justify-content-center">
+
+
+            <svg class="fa-6-solid-suitcase col-2 col-xl-1 col-xxl-1" width="100%" viewBox="0 0 176 145" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_81_19)">
+                <path
+                  d="M60.6562 15.95V27.2H115.344V15.95C115.344 14.7125 114.113 13.7 112.609 13.7H63.3906C61.8867 13.7 60.6562 14.7125 60.6562 15.95ZM44.25 27.2V15.95C44.25 7.25933 52.8291 0.199951 63.3906 0.199951H112.609C123.171 0.199951 131.75 7.25933 131.75 15.95V135.2H44.25V36.2V27.2ZM22.375 27.2H33.3125V135.2H22.375C10.3096 135.2 0.5 127.128 0.5 117.2V45.2C0.5 35.2718 10.3096 27.2 22.375 27.2ZM153.625 135.2H142.688V27.2H153.625C165.69 27.2 175.5 35.2718 175.5 45.2V117.2C175.5 127.128 165.69 135.2 153.625 135.2Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_81_19">
+                  <rect width="175" height="144" fill="white" transform="translate(0.5 0.199951)" />
+                </clipPath>
+              </defs>
+            </svg>
+
+
+            <div class="col-12 col-xl-6 col-xxl-6  amplia-experiencia-dise-ando-para-clientes-de-toda-latinoam-rica">
+              Amplia experiencia diseñando para clientes de toda Latinoamérica.
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="seccion-titulo-logofolio" class="seccion-titulo-logofolio">
+        <div class="py-5">
+          <div class="py-0 py-lg-5 px-md-5 px-0">
+            <div class="row align-items-center py-5 px-lg-5 px-xl-0 px-2 justify-content-center">
+              <div class="frame-7 col-10 col-lg-12 col-xl-4 row-gap-1 pe-5 ">
+                <div class="frame-31">
+                  <div class="logo ">LOGO</div>
+                </div>
+                <div class="frame-30 ">
+                  <div class="folio">FOLIO</div>
+                </div>
+              </div>
+
+              <hr class="col-9 col-lg-12 col-xl-auto hr">
+
+              <!--svg class="line-2" width="3" height="415" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 414.7L1.5 0.699951" stroke="#79839D" stroke-width="2" />
+              </svg-->
+              <div class="col-9 px-0 px-lg-2 col-lg-12 col-xl-7 este-logofolio-es-una-muestra ps-0 ps-xl-4">
+                <div>
+                  Este logofolio es una muestra de mi trabajo y espero que te guste.
+                  Incluye algunos de mis diseños favoritos y ejemplos de cómo he
+                  ayudado a las empresas a mejorar su imagen de marca.
+                </div>
+                <br />
+                <div>
+                  Todas las imágenes son pulsables y llevan a su respectiva web.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="logofolio-seccion-15-logos">
+        <div class="frame-202">
+          <div class="row justify-content-center">
+
+            <div class="col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-11 ">
+              <a href="https://mintaka.com.ve/index.php/es/"><img class="mintaka-logo-elegido-blanco-1"
+                  src="./assets/1 MINTAKA.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-12">
+              <a href="https://5digital.pe/index.php/es/"><img class="_5-digital-letras-blancas-1"
+                  src="./assets/2 5DIGITAL.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-13">
+              <a href="https://www.toldossegovia.cl/"><img class="segovia-3-propuestas-12-1"
+                  src="./assets/3 TOLDOS SEGOVIA.png" /></a>
+            </div>
+
+            <div class="col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-23">
+              <a href="https://www.yazilimyol.com/index.php/tr/"><img class="logo-blanco-y-negro-1"
+                  src="./assets/4 YAZILIMYOL.png" /></a>
+            </div>
+
+            <div class="col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-15">
+              <a href="https://www.instagram.com/jaranapartyoficial/"><img
+                  class="jarana-party-para-fondos-oscuros-150-x-8-1" src="./assets/5 JARANA PARTY.png" /></a>
+            </div>
+
+            <div class="col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-19">
+              <a href="https://admk.cl/"><img class="_3-1-1" src="./assets/6 ADMK.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-17">
+              <a href="https://acinsumos.cl/"><img class="a-color-para-fondos-claros-1"
+                  src="./assets/7 ACINSUMOS.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-18">
+              <a href="https://umpastosintetico.com/"><img class="um-logo-horizontal-letras-blancas-1"
+                  src="./assets/8 UM PASTO SINTETICO.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-60">
+              <a href="https://activaya.com.ni/index.php/es/"><img class="logo-elegido-activa-ya-1"
+                  src="./assets/9 ACTIVAYA.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-20">
+              <a href="https://www.instagram.com/librerianovenin/?igsh=NWt5MjJhZzdqdndm"><img
+                  class="novenin-p-2-blanco-y-negro-1" src="./assets/10 NOVENIN.png" /></a>
+            </div>
+
+            <div class="col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-61">
+              <a href="https://vendomaq.cl/"><img class="vendomaq-con-mascota-y-linea-copia-1"
+                  src="./assets/11 VENDOMAQ.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-22">
+              <a href="https://3clics.lat/index.php/es/"><img class="_3-clics-1" src="./assets/12 3CLICS.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-26">
+              <a href="https://kristalina.cl/"><img class="logo-colores-1" src="./assets/13 KRISTALINA.png" /></a>
+            </div>
+
+            <div class=" col-6 col-lg-6 col-xl-6 col-xxl-4 rectangle-25">
+              <a href="https://unifila.cl/"><img class="logo-unifila-blanco-1" src="./assets/14 UNIFILA.png" /></a>
+            </div>
+
+            <div class=" col-6 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 rectangle-14">
+              <a href="https://xhunca.com.ni/index.php/es/"><img class="logo-inversiones-xhunca-8-1"
+                  src="./assets/15 XHUNCA.png" /></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="seccion-dise-o-web" id="seccion-dise-o-web" style="
+            background: url(assets/FONDO-DISEÑO-WEB.png) center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          ">
+
+        <div class="row justify-content-center row-gap-5 pb-5">
+          <div class="d-sm-none d-block col-auto col-sm-auto"></div>
+          <div class="col-9 col-sm-7 col-md-8 col-lg-6 col-xl-7 col-xxl-7 py-5 px-2 px-sm-0">
+            <div class="pt-5">
+              <div class="frame-14  pt-5">
+
+                <div class="rectangle-46 row justify-content-center">
+                  <div class="frame-206 col-12 pt-4 px-0">
+                    <div class="row justify-content-center column-gap-xxl-5 column-gap-xl-3 column-gap-1">
+                      <div class="dise-o col-auto col-xxl-7  text-end">DISEÑO</div>
+                      <div class="web col-auto col-xxl-4 text-end text-xxl-start">WEB</div>
+
+                    </div>
+                  </div>
+
+                  <div class="group-19 col-12 pb-4">
+                    <div class="row justify-content-center align-items-center">
+
+                      <svg class="vector-1 col-2 col-sm-1" viewBox="0 0 75 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M74.5 3.7002H0.5" stroke="white" stroke-width="6" />
+                      </svg>
+                      <div class="los-sitios-m-s-destacados col-8 col-sm-9 px-0 px-sm-1">
+                        los sitios más destacados
+                      </div>
+                      <svg class="vector-2 col-2 col-sm-1" viewBox="0 0 75 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M74.5 3.7002H0.5" stroke="white" stroke-width="6" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-sm-none d-block col-auto col-sm-auto"></div>
+
+          <div class="group-26 col-10 col-sm-7 col-lg-7 col-xxl-7">
+
+            <div class="row row-gap-5">
+
+              <div class="seccion-refrielectrica-1 col-12">
+                <div class="row justify-content-center">
+                  <div class="col-1  px-md-1 px-0">
+                    <img class="ellipse-6 mt-1 mt-sm-3 px-sm-auto px-0" src="./assets/CIRCULO ROSA.png">
+                  </div>
+                  <div class="refrielectrica-texto-1 col-11 col-md-9">
+
+
+                    <div class="row row-gap-4">
+                      <div class="col-12">
+                        <div class="row row-gap-4">
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="refriel-ctrica-sp-a col-12">Refrieléctrica SpA</div>
+                              <div class="redise-o-de-sitio-web v">REDISEÑO DE SITIO WEB</div>
+                            </div>
+                          </div>
+                          <div class="luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios col-12">
+                            Luego de un estudio sobre la interacción de los usuarios con
+                            la web de Refrieléctrica, se elaboraron hipótesis que fueron
+                            apoyadas con el diseño de 3 prototipos, de los cuales se
+                            eligió uno como rediseño final de la web.
+                          </div>
+
+
+                        </div>
+                      </div>
+                      <div class="botones-refrielectrica col-12 ">
+                        <div class="ps-2 row column-gap-4 column-gap-xxl-5">
+                          <a href="https://refrielectrica.cl/" class="ir-a-web-boton-1 col-4">
+                            <div class="row column-gap-1 column-gap-sm-0">
+                              <img class="icono-lupa-1 col-3 col-lg-3 col-xl-3 col-xxl-3 pe-0" src="ICON WEB.png" />
+                              <div
+                                class="ir-a-web py-3 col-8 col-sm-9 col-lg-9 col-xxl-9 col-xl-9 px-0 px-sm-2 px-xxl-3 ">
+                                Ir a web</div>
+                            </div>
+                          </a>
+                          <div class="ver-caso-de-estudio-boton-1 col-7 text-end">
+                            <div class="frame-282 row">
+                              <img class="icono-lupa-1 col-3 col-lg-2 pe-lg-0 pe-xl-2 pe-0 col-xl-2 col-xxl-2"
+                                src="icono-lupa-10.png" />
+                              <div class="ver-caso-de-estudio py-3 col-9 col-lg-10">
+                                Ver caso de Estudio
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img class="rectangle-28 col-12" src="rectangle-280.png" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="grande-lash-seccion-2 col-12">
+                <div class="row justify-content-center">
+                  <div class="col-1  px-sm-1 px-0">
+                    <img class="ellipse-6 mt-1 mt-sm-3 px-sm-auto px-0" src="./assets/CIRCULO ROSA.png">
+                  </div>
+                  <div class="refrielectrica-texto-1 col-11 col-md-9">
+
+
+                    <div class="row row-gap-4">
+                      <div class="col-12">
+                        <div class="row row-gap-4">
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="refriel-ctrica-sp-a col-12">Grande Lash Chile</div>
+                              <div class="redise-o-de-sitio-web v">REDISEÑO DE SITIO WEB</div>
+                            </div>
+                          </div>
+                          <div class="luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios col-12">
+                            Esta marca requería optimizar su web en Chile y resaltar sus
+                            productos, inicialmente buscando diferenciarse de su
+                            competencia y resaltando sus fortalezas. Por consiguiente,
+                            se elaboraron hipótesis que fueron apoyadas con el diseño de
+                            3 prototipos, de los cuales se eligió uno como rediseño
+                            final de la web.
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="botones-refrielectrica col-12 ">
+                        <div class="ps-2 row column-gap-4 column-gap-xxl-5">
+                          <a href="https://grandelashchile.cl/" class="ir-a-web-boton-1 col-4">
+                            <div class="row column-gap-1 column-gap-sm-0">
+                              <img class="icono-lupa-1 col-3 col-lg-3 col-xl-3 col-xxl-3 pe-0" src="ICON WEB.png" />
+                              <div
+                                class="ir-a-web py-3 col-8 col-sm-9 col-lg-9 col-xxl-9 col-xl-9 px-0 px-sm-2 px-xxl-3 ">
+                                Ir a web</div>
+                            </div>
+                          </a>
+                          <div class="ver-caso-de-estudio-boton-1 col-7 text-end">
+                            <div class="frame-282 row">
+                              <img class="icono-lupa-1 col-3 col-lg-2 pe-lg-0 pe-xl-2 pe-0 col-xl-2 col-xxl-2"
+                                src="icono-lupa-10.png" />
+                              <div class="ver-caso-de-estudio py-3 col-9 col-lg-10">
+                                Ver caso de Estudio
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <img class="mockup-2-1 col-12" src="mockup-2-10.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="seccion-refrielectrica-1 col-12">
+                <div class="row justify-content-center">
+                  <div class="col-1  px-sm-1 px-0">
+                    <img class="ellipse-6 mt-1 mt-sm-3 px-sm-auto px-0" src="./assets/CIRCULO ROSA.png">
+                  </div>
+                  <div class="refrielectrica-texto-1 col-11 col-md-9">
+
+
+                    <div class="row row-gap-4">
+
+
+                      <div class="col-12">
+                        <div class="row row-gap-4">
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="refriel-ctrica-sp-a col-12">Vendomaq</div>
+                              <div class="redise-o-de-sitio-web v">REDISEÑO DE SITIO WEB</div>
+                            </div>
+                          </div>
+                          <div class="luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios col-12">
+                            Para el re-branding de esta marca, no solo se buscaba
+                            rediseñar y simplificar su web, también evolucionó todo el
+                            mensaje desde la imagen anterior de Coffeemaq a Vendomaq,
+                            para abarcar el arriendo de máquinas expendedoras de snack
+                            con una nueva imagen simpática y una mascota icónica.
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="botones-refrielectrica col-12 ">
+                        <div class="ps-2 row column-gap-4 column-gap-xxl-5">
+                          <a href="https://vendomaq.cl/" class="ir-a-web-boton-1 col-4">
+                            <div class="row column-gap-1 column-gap-sm-0">
+                              <img class="icono-lupa-1 col-3 col-lg-3 col-xl-3 col-xxl-3 pe-0" src="ICON WEB.png" />
+                              <div
+                                class="ir-a-web py-3 col-8 col-sm-9 col-lg-9 col-xxl-9 col-xl-9 px-0 px-sm-2 px-xxl-3">
+                                Ir a web</div>
+                            </div>
+                          </a>
+                          <div class="ver-caso-de-estudio-boton-1 col-7 text-end">
+                            <div class="frame-282 row">
+                              <img class="icono-lupa-1 col-3 col-lg-2 pe-lg-0 pe-xl-2 pe-0 col-xl-2 col-xxl-2"
+                                src="icono-lupa-10.png" />
+                              <div class="ver-caso-de-estudio py-3 col-9 col-lg-10">
+                                Ver caso de Estudio
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img class="rectangle-28 col-12" src="mockup-2-20.png" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="seccion-refrielectrica-1 col-12">
+                <div class="row justify-content-center">
+                  <div class="col-1  px-sm-1 px-0">
+                    <img class="ellipse-6 mt-1 mt-sm-3 px-sm-auto px-0" src="./assets/CIRCULO ROSA.png">
+                  </div>
+                  <div class="refrielectrica-texto-1 col-11 col-md-9">
+
+
+                    <div class="row row-gap-4">
+
+
+                      <div class="col-12">
+                        <div class="row row-gap-4">
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="refriel-ctrica-sp-a col-12">HRD Chile</div>
+                              <div class="redise-o-de-sitio-web v">REDISEÑO DE SITIO WEB</div>
+                            </div>
+                          </div>
+                          <div class="luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios col-12">
+                            La empresa requería que su web reflejara mejor sus servicios,
+                            como es el predrilling, perforaciones de pozos tanto para
+                            parques solares fotovoltaicos como para otro tipo de uso.
+                            Luego del trabajo de investigación, se implementó el prototipo
+                            aprobado en su rediseño web.
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="botones-refrielectrica col-12 ">
+                        <div class="ps-2 row column-gap-4 column-gap-xxl-5">
+                          <a href="https://www.hrd.cl/" class="ir-a-web-boton-1 col-4">
+                            <div class="row column-gap-1 column-gap-sm-0">
+                              <img class="icono-lupa-1 col-3 col-lg-3 col-xl-3 col-xxl-3 pe-0" src="ICON WEB.png" />
+                              <div
+                                class="ir-a-web py-3 col-8 col-sm-9 col-lg-9 col-xxl-9 col-xl-9 px-0 px-sm-2 px-xxl-3">
+                                Ir a web</div>
+                            </div>
+                          </a>
+                          <div class="ver-caso-de-estudio-boton-1 col-7 text-end">
+                            <div class="frame-282 row">
+                              <img class="icono-lupa-1 col-3 col-lg-2 pe-lg-0 pe-xl-2 pe-0 col-xl-2 col-xxl-2"
+                                src="icono-lupa-10.png" />
+                              <div class="ver-caso-de-estudio py-3 col-9 col-lg-10">
+                                Ver caso de Estudio
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img class="rectangle-28 col-12" src="mockup-2-30.png" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="seccion-refrielectrica-1 col-12">
+                <div class="row justify-content-center">
+                  <div class="col-1  px-sm-1 px-0">
+                    <img class="ellipse-6 mt-1 mt-sm-3 px-sm-auto px-0" src="./assets/CIRCULO ROSA.png">
+                  </div>
+                  <div class="refrielectrica-texto-1 col-11 col-md-9">
+
+
+                    <div class="row row-gap-4">
+
+
+                      <div class="col-12">
+                        <div class="row row-gap-4">
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="refriel-ctrica-sp-a col-12">Body Face Estética</div>
+                              <div class="redise-o-de-sitio-web v">REDISEÑO DE SITIO WEB</div>
+                            </div>
+                          </div>
+                          <div class="luego-de-un-estudio-sobre-la-interacci-n-de-los-usuarios col-12">
+                            La empresa contaba con redes sociales, pero no contaba con una
+                            página web, por lo que se inició la investigación
+                            correspondiente que llevó al prototipo final que esta en uso
+                            en la actualidad, como página central donde ofrecen todos sus
+                            servicios.
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="botones-refrielectrica col-12 ">
+                        <div class="ps-2 row column-gap-4 column-gap-xxl-5">
+                          <a href="https://bodyface.cl/" class="ir-a-web-boton-1 col-4">
+                            <div class="row column-gap-1 column-gap-sm-0">
+                              <img class="icono-lupa-1 col-3 col-lg-3 col-xl-3 col-xxl-3 pe-0" src="ICON WEB.png" />
+                              <div
+                                class="ir-a-web py-3 col-8 col-sm-9 col-lg-9 col-xxl-9 col-xl-9 px-0 px-sm-2 px-xxl-3">
+                                Ir a web</div>
+                            </div>
+                          </a>
+                          <div class="ver-caso-de-estudio-boton-1 col-7 text-end">
+                            <div class="frame-282 row">
+                              <img class="icono-lupa-1 col-3 col-lg-2 pe-lg-0 pe-xl-2 pe-0 col-xl-2 col-xxl-2"
+                                src="icono-lupa-10.png" />
+                              <div class="ver-caso-de-estudio py-3 col-9 col-lg-10">
+                                Ver caso de Estudio
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img class="rectangle-28 col-12" src="mockup-2-40.png" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="seccion-contactame" class="seccion-contactame py-5">
+        <div class="row py-5 align-items-center row-gap-5">
+          <div class="frame-244 col-12 col-lg-6">
+            <div class="col-10 col-xxl-8 col-xl-9">
+              <div class="row row-gap-5 justify-content-center">
+                <div class="col-12">
+                  <div class="contacto">CONTACTO</div>
+                  <div class="escriba-sus-datos-en-el-formulario-para-contactarle">
+                    Escriba sus datos en el formulario para contactarle fácilmente o
+                    también, pulse uno de los botones señalados abajo y escriba
+                    directamente al Whatsapp o correo electrónico.
+                  </div>
+                </div>
+
+                <a href="http://wa.link/dgq56g" class="col-12">
+                  <div class="rectangle-55 p-2">
+                    <div class="frame-262">
+                      <div class="row px-3 py-2">
+                        <img class="logo-whattsapp-1 col-3 col-sm-2" src="logo-whattsapp-10.png" />
+                        <div class="ir-al-chat-de-whatsapp col-9 col-sm-10">Ir al chat de Whatsapp</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="mailto:coralcalderondg@gmail.com?
+                Subject=Escriba%20sobre%20el%20asunto" class="col-12">
+                  <div class="rectangle-57 p-2">
+                    <div class="frame-263">
+                      <div class="row px-3 py-2">
+                        <img class="icono-correo-1 col-3 col-sm-2 ps-0 ps-sm-2" src="icono-correo-10.png" />
+                        <div class="enviar-correo-electr-nico col-9 col-sm-10">
+                          Enviar correo electrónico
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="row justify-content-center">
+              <div class="frame-10 col-10 col-xl-9 col-xxl-9">
+                <form action="https://formsubmit.co/52af0d195216f3b8b3d9a91230fc0d17" id="form" method="POST"
+                  class="row justify-content-center py-5 row-gap-2">
+
+                  <div class="rellene-el-formulario col-11">Rellene el formulario</div>
+                  <div class="con-sus-datos-para-ponernos-en-contacto col-11">
+                    con sus datos para ponernos en contacto
+                  </div>
+                  <div class="nombre-y-apellido col-11 mt-3">NOMBRE Y APELLIDO*</div>
+                  <input type="text" class="rectangle-48 col-11" placeholder="Nombre" name="Nombre"
+                    title="mas de 7 letras, menos de 30 letras y sin numeros" autocapitalize="words"
+                    pattern="[A-Za-z ]{8,30}" required />
+                  <div class="correo-electr-nico col-11 mt-3">CORREO ELECTRÓNICO*</div>
+                  <input type="email" class="rectangle-49 col-11" placeholder="ejemplo@gmail.com"
+                    pattern="[a-zA-Z0-9!#$%&'*\/=?^_`\{\|\}~\+\-]([\.]?[a-zA-Z0-9!#$%&'*\/=?^_`\{\|\}~\+\-])+@[a-zA-Z0-9]([^@&%$\/\(\)=?¿!\.,:;]|\d)+[a-zA-Z0-9][\.][a-zA-Z]{2,4}([\.][a-zA-Z]{2})?"
+                    name="Correo" required />
+                  <div class="tel-fono col-11 mt-3">TELÉFONO</div>
+                  <input type="text" class="rectangle-50 col-11" placeholder="+(000)412-1234567"
+                    title="ingrese codigo de pais seguido" pattern="[+]?[0-9]{12,13}" name="Telefono" required />
+                  <div class="asunto col-11 mt-3">ASUNTO*</div>
+                  <input type="text" class="rectangle-53 col-11" placeholder="Titulo" autocapitalize="sentence"
+                    name="Asunto" pattern="[A-Za-z0-9 ]{8,30}" required />
+                  <div class="mensaje col-11 mt-3">MENSAJE*</div>
+                  <textarea class="rectangle-52 col-11 py-2" cols="50" placeholder="Breve Descripción"
+                    autocapitalize="sentence" name="Descripción" pattern="[A-Za-z ]{8,300}" required></textarea>
+                  <div class="las-casillas-marcadas-con-son-obligatorias col-11 pb-3">
+                    Las casillas marcadas con (*) son obligatorias
+                  </div>
+
+                  <input type="submit" class="frame-18 col-11 enviar-formulario py-2" value="ENVIAR FORMULARIO">
+                  <input type="hidden" name="_captcha" value="false">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="row justify-content-center py-5 row-gap-1">
+          <div class="col-7 col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 column-gap-1">
+            <div class="row justify-content-center">
+              <a href="http://wa.link/dgq56g" class="col-3">
+                <img class="logo-whattsapp " src="logo-whattsapp0.png" />
+              </a>
+              <a href="https://www.linkedin.com/in/coralcalderondg?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                class="col-3">
+                <img class="linkedin-logo-png-2048 " src="linkedin-logo-png-20480.png" />
+              </a>
+              <a href="https://www.behance.net/azure14azud66b" class="col-3 pt-1">
+                <img class="logo-behance " src="logo-behance0.png" />
+              </a>
+            </div>
+          </div>
+          <div class="_2024-coral-calder-n-todos-los-derechos-reservados col-12">
+            © 2024 Coral Calderón. Todos los Derechos Reservados.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <script src="./dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        function inicio() {
+          var scrollTop = $(window).scrollTop();
+          if (scrollTop >= 0 && scrollTop < $("#seccion-sobre-mi").position().top - 30) {
+            clases();
+
+            $("#pr1").addClass('cor');
+            $("#pl1").addClass('cor');
+          }
+          if (scrollTop >= $("#seccion-sobre-mi").position().top && scrollTop <= $("#seccion-titulo-logofolio").position().top - 30) {
+            clases();
+
+            $("#pr2").addClass('cor');
+            $("#pl2").addClass('cor');
+          }
+          if (scrollTop >= $("#seccion-titulo-logofolio").position().top && scrollTop < $("#seccion-dise-o-web").position().top - 30) {
+            clases();
+
+            $("#pr3").addClass('cor');
+            $("#pl3").addClass('cor');
+          }
+          if (scrollTop >= $("#seccion-dise-o-web").position().top && scrollTop < ($("#seccion-contactame").position().top - 30)) {
+            clases();
+
+            $("#pr4").addClass('cor');
+            $("#pl4").addClass('cor');
+          }
+          if (scrollTop >= ($("#seccion-contactame").position().top - 30)) {
+            clases();
+
+            $("#pr5").addClass('cor');
+            $("#pl5").addClass('cor');
+          }
+        }
+
+        inicio();
+        /*$("#form").submit(function (e) {
+          e.preventDefault();
+          $.ajax({
+            url: "https://formsubmit.co/ajax/coralcalderondg@gmail.com",
+            method: "POST",
+            data: {
+              name: "FormSubmit",
+              message: "I'm from Devro LABS"
+            },
+            dataType: "json"
+          });
+        });
+        */
+        function clases() {
+
+          let l = document.querySelectorAll(".cor");
+          for (let i = 0; i < l.length; i++) {
+            l[i].classList.remove("cor");
+          }
+
+        };
+
+        $(window).scroll(function (event) {
+          var scrollTop = $(window).scrollTop();
+          if (scrollTop >= 0 && scrollTop < $("#seccion-sobre-mi").position().top - 30) {
+            clases();
+
+            $("#pr1").addClass('cor');
+            $("#pl1").addClass('cor');
+          }
+          if (scrollTop >= $("#seccion-sobre-mi").position().top && scrollTop <= $("#seccion-titulo-logofolio").position().top - 30) {
+            clases();
+
+            $("#pr2").addClass('cor');
+            $("#pl2").addClass('cor');
+          }
+          if (scrollTop >= $("#seccion-titulo-logofolio").position().top && scrollTop < $("#seccion-dise-o-web").position().top - 30) {
+            clases();
+
+            $("#pr3").addClass('cor');
+            $("#pl3").addClass('cor');
+          }
+          if (scrollTop >= $("#seccion-dise-o-web").position().top && scrollTop < ($("#seccion-contactame").position().top - 30)) {
+            clases();
+
+            $("#pr4").addClass('cor');
+            $("#pl4").addClass('cor');
+          }
+          if (scrollTop >= ($("#seccion-contactame").position().top - 30)) {
+            clases();
+
+            $("#pr5").addClass('cor');
+            $("#pl5").addClass('cor');
+          }
+        });
+
+
+
+      });
+    </script>
+
+
+</body>
+
+
+
+</html>
