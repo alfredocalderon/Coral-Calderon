@@ -578,7 +578,7 @@ body{
   position: static;
 }
 .rectangle-61 {
-
+  background-color: #f1f1f1;
   width: 100%;
 
 }
@@ -595,6 +595,7 @@ body{
 .rectangle-22 {
   background: #ec1c24;
   width: 100%;
+  
 }
 ._3-clics-1 {
   width: 100%;
@@ -674,6 +675,7 @@ body{
   border-color: #ffffff;
   border-width: 1px;
   flex-shrink: 0;
+  
 
 }
 .frame-206 {
@@ -686,7 +688,7 @@ body{
   color: #ffffff;
 
   font-family: "Inter-Bold", sans-serif;
-  font-size: 120px;
+  font-size: 110px;
   font-weight: 700;
 
 }
@@ -694,7 +696,7 @@ body{
   color: #ffffff;
 
   font-family: "Inter-Regular", sans-serif;
-  font-size: 128px;
+  font-size: 115px;
 
   font-weight: 400;
 
@@ -1389,6 +1391,7 @@ body{
   flex-shrink: 0;
   width: 100%;
   background-image: url("./assets/FONDO COMPLETO CONTACTO.png");
+  background-size: cover;
 
   overflow: hidden;
 }
@@ -1412,7 +1415,7 @@ body{
 .frame-10 {
   background: #ffffff;
   border-radius: 33px;
-  box-shadow: 7px 10px 22.2px 0px rgba(0, 0, 0, 0.25);
+  
 
 }
 .frame-25 {
@@ -1618,6 +1621,7 @@ body{
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  
 }
 .frame-18:hover {
   background: #2c7384;
@@ -1725,6 +1729,7 @@ body{
   flex-shrink: 0;
   position: relative;
   object-fit: cover;
+  width: 100%;
 }
 .ir-al-chat-de-whatsapp {
   color: #ffffff;
@@ -1786,6 +1791,7 @@ body{
 }
 .icono-correo-1 {
   object-fit: cover;
+  width: 100%;
 }
 input[pattern]:focus:invalid,  textarea[pattern]:focus:invalid{
   background-color: rgba(202, 29, 29, 0.24) !important;
@@ -1798,7 +1804,7 @@ input[pattern]:focus:valid, textarea[pattern]:focus:valid  {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Medium", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 500;
   position: relative;
   display: flex;
@@ -1817,7 +1823,7 @@ input[pattern]:focus:valid, textarea[pattern]:focus:valid  {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 1651px;
+  width: 1400px;
   position: relative;
   overflow: hidden;
 }
@@ -1850,7 +1856,7 @@ input[pattern]:focus:valid, textarea[pattern]:focus:valid  {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 1651px;
+  width: 1400px;
   height: 151px;
   position: absolute;
   left: 135px;
@@ -1969,6 +1975,14 @@ input[pattern]:focus:valid, textarea[pattern]:focus:valid  {
   filter:  brightness(108%);
 
 }
+.shadow-inset:hover {
+  filter:  brightness(108%);
+
+}
+.sh:hover {
+  filter:  brightness(108%);
+
+}
 .ellipse-8:active {
   filter:  brightness(115%);
 
@@ -1994,7 +2008,7 @@ input[pattern]:focus:valid, textarea[pattern]:focus:valid  {
 .hr{
   border: none; border-left: 3px solid #79839D; height: 350px;width: 2px;
 }
-@media (max-width: 1651px) {
+@media (max-width: 1400px) {
 
   .ir-a-web {
 
@@ -2920,6 +2934,16 @@ video{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+  }
+  .enviar-correo-electr-nico {
+
+    font-size: 24px;
+
+  }
+  .ir-al-chat-de-whatsapp {
+
+    font-size: 24px;
+
   }
 
 }
